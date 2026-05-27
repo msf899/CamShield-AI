@@ -64,7 +64,7 @@ Think of it as a **doctor checkup for your network cameras**.
 ### Option 1: Docker (Recommended)
 
 ```bash
-git clone https://github.com/yourusername/camshield-ai
+git clone https://github.com/msf899/CamShield-AI
 cd camshield-ai
 docker compose up
 ```
@@ -76,7 +76,7 @@ Open `http://localhost:3000` — Dashboard ready! 🎉
 **Linux/macOS:**
 ```bash
 # Clone
-git clone https://github.com/yourusername/camshield-ai
+git clone https://github.com/msf899/CamShield-AI
 cd camshield-ai
 
 # Backend
