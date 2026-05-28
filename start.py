@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 CamShield AI - Quick Start Script
 Works on Linux, Windows, macOS
@@ -53,7 +52,7 @@ def setup_backend():
     os.chdir("backend")
     run([PY, "-m", "pip", "install", "-r", "requirements.txt", "-q"])
 
-    # Create .env from example if not exists
+
     if not os.path.exists(".env"):
         if os.path.exists(".env.example"):
             import shutil
